@@ -1,0 +1,3 @@
+This program is used with another project "FileTransferClient". When run, the program listens for a connection to "FileTransferClient". When connection is established it will receive the name of a file and its contents and create a copy at the current project location.
+
+This program uses a TCP connection to receive the name of a file and its contents from "FileTransferClient". To execute simply build and run the file main.c
